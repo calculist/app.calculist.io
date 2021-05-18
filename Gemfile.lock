@@ -91,7 +91,8 @@ GEM
     non-stupid-digest-assets (1.0.9)
       sprockets (>= 2.0)
     orm_adapter (0.5.0)
-    puma (3.12.6)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.2.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -195,7 +196,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   mysql2 (>= 0.3.18, < 0.5)
   non-stupid-digest-assets
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.0.7, >= 5.0.7.2)
   rspec-rails (~> 3.5)
   sass-rails (~> 5.0)
